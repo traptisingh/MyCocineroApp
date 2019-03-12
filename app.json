@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "expo-MyCocinero",
+    "slug": "expo-MyCocinero",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "facebookScheme": "fb368059500449537",
+    "facebookAppId": "368059500449537",
+    "facebookDisplayName": "expo_MyCocinero",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "host.exp.exponent",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "499067846462-15prejt1j2jpnv1ko1fslcbojb0pi2oi.apps.googleusercontent.com"
+        }
+      }
+    }
+  }
+}
